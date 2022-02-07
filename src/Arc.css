@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    transition: 0.25s ease-out;
 }
 
 .arc-label {

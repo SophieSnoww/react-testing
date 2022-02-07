@@ -8,6 +8,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
+    transition: 0.25s ease-out;
 }
 
 .orbit-display-title {
