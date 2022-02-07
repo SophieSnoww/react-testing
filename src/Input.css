@@ -32,21 +32,3 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
 }
-
-.data-container {
-    margin-top: 20px;
-    padding: 10px 15px;
-    background-color: #0004;
-    border-radius: 15px;
-    border: 1px solid var(--color-3);
-}
-
-.data-output-title {
-    display: inline;
-    font-weight: bold;
-    color: var(--color-1);
-}
-
-.data-output:nth-child(2n) .data-output-title {
-    color: var(--color-2);
-}

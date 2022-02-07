@@ -1,0 +1,14 @@
+.RegenButton {
+    padding: 10px 25px;
+    border: 1px solid var(--color-1);
+    background-color: #0006;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    transition: .25s ease-out;
+    cursor: pointer;
+    user-select: none;
+}
+
+.RegenButton:hover {
+    transform: scale(1.1);
+}

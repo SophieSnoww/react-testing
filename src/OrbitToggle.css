@@ -1,0 +1,13 @@
+.OrbitToggle {
+    padding: 10px 25px;
+    background-color: #0006;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    transition: .25s ease-out;
+    cursor: pointer;
+    user-select: none;
+}
+
+.OrbitToggle:hover {
+    transform: scale(1.1);
+}
