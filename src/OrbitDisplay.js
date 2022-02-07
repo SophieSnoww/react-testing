@@ -7,7 +7,14 @@ class OrbitDisplay extends React.Component {
     }
     
     render() {
-        let orbitElements = [];
+        let orbitElements = [
+            <div className="orbit-display-element label">
+                <div className="orbit-display-name">Orbit</div>
+                <div className="orbit-display-au">Distance</div>
+                <div className="orbit-display-peroid">Orbital Period</div>
+                <div className="orbit-display-velocity">Velocity</div>
+            </div>
+        ];
         
         for (let i = 1; i < this.props.data.orbits.length + 1; i++) {
             orbitElements.push(

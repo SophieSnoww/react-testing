@@ -25,6 +25,11 @@
     justify-content: space-between;
 }
 
+.orbit-display-element.label {
+    color: var(--color-2);
+    font-weight: bold;
+}
+
 .orbit-display-name {
     flex: 0 0 75px;
 }
