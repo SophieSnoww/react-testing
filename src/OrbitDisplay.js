@@ -14,6 +14,8 @@ class OrbitDisplay extends React.Component {
                 <div className="orbit-display-element">
                     <div className="orbit-display-name">Orbit {i}</div>
                     <div className="orbit-display-au">{Math.round(((this.props.data.orbits[i-1]/this.props.data.oBoundry)*this.props.data.oBoundry)*100)/100} AU</div>
+                    <div className="orbit-display-peroid">{Math.round(((Math.sqrt((this.props.data.orbits[i-1] ** 3)/this.props.data.mass))*365.24)*100)/100} Earth Days</div>
+                    <div className="orbit-display-velocity">{Math.round(((Math.sqrt(this.props.data.mass/this.props.data.orbits[i-1]))*30)*10)/10} km/s</div>
                 </div>
             );
         }
@@ -22,7 +24,7 @@ class OrbitDisplay extends React.Component {
             <div className="OrbitDisplay" onClick={this.props.handleClick} style={{
                 opacity: this.props.data.orbitsDisabled ? "0" : "1"
             }}>
-                <div className="orbit-display-title">Orbits</div>
+                <div className="orbit-display-title">Valid Orbits</div>
                 {orbitElements}
             </div>
         );

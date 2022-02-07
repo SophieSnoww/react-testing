@@ -19,7 +19,24 @@
 
 .orbit-display-element {
     display: flex;
-    width: 150px;
+    width: 450px;
+    /* gap: 20px; */
     align-items: center;
     justify-content: space-between;
+}
+
+.orbit-display-name {
+    flex: 0 0 75px;
+}
+
+.orbit-display-au {
+    flex: 0 0 75px;
+}
+
+.orbit-display-peroid {
+    flex: 0 0 150px;
+}
+
+.orbit-display-velocity {
+    flex: 0 0 75px;
 }
