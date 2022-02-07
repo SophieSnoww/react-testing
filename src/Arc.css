@@ -1,4 +1,12 @@
-arc {
+.arc {
     border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.arc-label {
+    transform: rotate(90deg);
     position: absolute;
 }

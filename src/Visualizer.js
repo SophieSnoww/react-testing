@@ -20,11 +20,11 @@ class Visualizer extends React.Component {
         return (
             <div className="Visualizer">
                 <star />
-                <Arc color="#f00" width={iBoundry * 2} />
-                <Arc color="#0f0" width={hZoneStart * 2} />
+                <Arc color="#f00" width={iBoundry * 2} label="Inner Boundry" />
+                <Arc color="#0f0" width={hZoneStart * 2} label="Habitable Zone" />
                 <Arc color="#0f0" width={hZoneEnd * 2} />
-                <Arc color="#0ff" width={fLine * 2} />
-                <Arc color="#f00" width={oBoundry * 2} />
+                <Arc color="#0ff" width={fLine * 2} label="Frost Line" />
+                <Arc color="#f00" width={oBoundry * 2} label="Outer Boundry" />
             </div>
         );
     }
