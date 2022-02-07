@@ -50,3 +50,7 @@ code {
     flex-wrap: wrap;
     overflow-x: visible;
 }
+
+.no-show {
+    display: none;
+}
