@@ -9,7 +9,7 @@ class Input extends React.Component {
     render() {
         return (
             <div className="Input">
-                <input type="text" className="mass-input" placeholder="1" onInput={this.props.handleInput} />
+                <input type="number" step="0.1" min="0.4" max="10" className="mass-input" placeholder="1" onInput={this.props.handleInput} />
             </div>
         );
     }
