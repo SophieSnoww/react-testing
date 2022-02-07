@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Solar System Calculator",
+  "name": "Solar system calculator and visualizer made with React",
   "icons": [
     {
       "src": "favicon.ico",
