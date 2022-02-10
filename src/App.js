@@ -173,6 +173,10 @@ class App extends React.Component {
                         <div className="data-output-title">Outer Boundry:</div> {this.state.oBoundry} AU
                     </div>
                 </div>
+                <div className="credits">
+                    <a href="https://github.com/HouseholdDragon" className="credit-link">HouseholdDragon</a>
+                    <a href="https://sophie-snow.carrd.co/" className="credit-link">Sophie Snoww</a>
+                </div>
             </div>
         );
     }
