@@ -54,3 +54,48 @@ code {
 .no-show {
     display: none;
 }
+
+.app-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 1400px) {
+    .app-container {
+        /* padding: 100px 0px !important; */
+        padding-top: 400px !important;
+        padding-bottom: 100px !important;
+    }
+    
+    .App {
+        /* padding: 100px 0px !important; */
+        /* overflow-y: scroll !important; */
+        max-height: 100% !important;
+        box-sizing: border-box !important;
+    }
+    
+    .OrbitDisplay {
+        position: unset !important;
+        order: 10 !important;
+        margin-top: 20px !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .credits {
+        position: unset !important;
+        order: 12 !important;
+        margin-top: 20px !important;
+        align-items: center !important;
+    }
+    
+    .arc {
+        top: calc(var(--width) / -2) !important;
+        left: unset !important;
+    }
+}

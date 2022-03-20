@@ -5,6 +5,11 @@
     align-items: center;
     justify-content: flex-end;
     transition: 0.25s ease-out;
+    
+    width: var(--width);
+    height: var(--width);
+    /* use height lol */
+    left: calc(var(--width) / -2);
 }
 
 .arc-label {
