@@ -177,7 +177,7 @@ class App extends React.Component {
                     </div>
                     <div className="credits">
                         <a href="https://github.com/HouseholdDragon" className="credit-link">HouseholdDragon</a>
-                        <a href="https://sophie-snow.carrd.co/" className="credit-link">Sophie Snoww</a>
+                        <a href="https://zephyrsnow.xyz" className="credit-link">Zephyr Snow</a>
                     </div>
                 </div>
             </div>
